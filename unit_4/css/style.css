@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	background-image: url("../images/hero.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-color: #ededed;
+	/*font-family: "Helvetica";*/
+	color: #371000;
+	margin-bottom: 300px
+}
+h1	{
+	font-style: italic;
+	font-family: 'Poiret One', cursive;
+}
+p {
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+}
+/*#para2 {
+	color: #fff*/
+}
+}
+ul {
+    font-size: 20px;
+    color: #fff;
+     text-align: center;
+    list-style-type: none;
+    /*border-style: double;
+    border-width: 5px;
+    width: 0px;*/
+}
+hr {
+	width: 150px;
+	border-color: #000;
+}
+footer {
+	font-size: 15px;
+	/*color: #fff;*/
+}
+
