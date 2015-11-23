@@ -28,34 +28,40 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-p {
+h2, p {
     font-family: 'EB Garamond', serif;
     line-height: 1.5em;
 }
 
-article p {
+/*article p {
 	margin: .5%;
-}
+}*/
 
 #intro, #aboutus	 {
 	text-align: center;
 	border: solid 1px;
 	border-radius: 25px;
-	padding: 2em;
+/*	padding: 0 2em 2em 2em;*/
 	width: 90%;
 	margin: 1em auto;
 }
 
 #wrapper {
-	width: 95%;
-	margin: 0 auto;
+/*	width: 90%;
+	margin: 0 auto;*/
+	text-align: center;
+	/*border: solid 1px;
+	border-radius: 25px;*/
+/*	padding: 0 2em 2em 2em;*/
+	width: 90%;
+	margin: 1em auto;
 }
 
 article {
 	text-align: center;
 	border: solid 1px;
 	border-radius: 25px;
-	padding: 2em;
+	padding: 0 2em 2em 2em;
 	margin-bottom: 1em;
 }
 
@@ -63,6 +69,7 @@ article {
 	width: 49%;
 	float: left;
 }
+
 #floatright {
 	width: 49%;
 	float: right;
