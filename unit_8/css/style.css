@@ -1,0 +1,158 @@
+body {
+	background-image: url("../images/hero.jpg");
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: #ededed;
+	color: #371000;
+	font-size: 16px;
+	margin-bottom: 30%;
+}
+nav {
+	width: 90%
+	margin: 0 auto;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	width: 	20%;
+	float: left;
+	text-align: center;
+	margin: 2% auto;
+	color: #371000;
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h2, p {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5em;
+}
+
+#menu {
+	font-size: 2em;
+	padding: 0;
+	display: none;
+}
+
+
+#intro, #aboutus	 {
+	text-align: center;
+	border: solid 1px;
+	border-radius: 25px;
+	width: 90%;
+	margin: 1em auto;
+}
+
+#introtext, #abouttext {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#wrapper {
+	text-align: center;
+	width: 90%;
+	margin: 1em auto;
+}
+
+article {
+	text-align: center;
+	border: solid 1px;
+	border-radius: 25px;
+	padding: 0 2em 2em 2em;
+	margin-bottom: 1em;
+}
+
+#floatleft {
+	width: 49%;
+	float: left;
+}
+
+#floatright {
+	width: 49%;
+	float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;	
+}
+
+footer {
+	text-align: center;
+	margin: 1em;
+}
+
+
+/*max screen width*/
+
+@media only screen and (min-width: 900px) {
+	body {
+		width: 900px;
+		margin: 0 auto;
+	}
+}
+
+/*min screen width*/
+
+@media only screen and (max-width: 900px) {
+	body {
+	background-position: bottom;
+	background-size: 300px
+	}
+	#made {
+		width: 80%;
+		margin: 0 auto 1em auto;
+	}
+
+}
+@media only screen and (max-width: 630px) {
+	#floatleft, #floatright {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	#introtext {
+		display: none;
+	}
+	body {
+	background-position: bottom;
+	background-size: 200px
+	}
+	h2 {
+		font-size: 1.25em;
+	}
+	
+}
+
+@media only screen and (max-width: 530px) {
+ 	nav a{
+ 		display: none;
+ 	}
+ 	#menu {
+ 		display: block;
+ 		margin: 0 40%;
+ 	}
+	h2 {
+		font-size: 1.1em;
+	}
+	
+}
+
+
+
+
